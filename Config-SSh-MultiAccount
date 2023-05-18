@@ -1,0 +1,15 @@
+Host github.com-1
+User git
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/user1
+IdentitiesOnly yes
+Port 443
+
+Host github.com-2
+User git
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/user2
+IdentitiesOnly yes
+Port 443
